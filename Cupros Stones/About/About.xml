@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Cupro's Stones</name>
+  <author>cuproPanda</author>
+  <url>https://ludeon.com/forums/index.php?topic=13400.0</url>
+  <targetVersion>0.17.0</targetVersion>
+  <description>Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.</description>
+</ModMetaData>
