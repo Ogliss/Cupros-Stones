@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<TerrainDef Name="FloorBase" Abstract="True">
+	<TerrainDef Name="STN_FloorBase" Abstract="True">
 		<layerable>true</layerable>
 		<affordances>
 			<li>Light</li>
@@ -18,7 +18,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</TerrainDef>
 
-	<TerrainDef Abstract="True" ParentName="FloorBase" Name="TileStoneBase">
+	<TerrainDef Abstract="True" ParentName="STN_FloorBase" Name="STN_TileStoneBase">
 		<RenderPrecedence>220</RenderPrecedence>
 		<Description>Refined, carefully-cut stone tiles for a castle feeling. Pretty to look at, but they take a long time to lay.</Description>
 		<texturePath>Terrain/Surfaces/TileStone</texturePath>
@@ -28,7 +28,7 @@
 		</statBases>
 	</TerrainDef>
 
-	<TerrainDef Abstract="True" ParentName="FloorBase" Name="FlagstoneBase">
+	<TerrainDef Abstract="True" ParentName="STN_FloorBase" Name="STN_FlagstoneBase">
 		<RenderPrecedence>220</RenderPrecedence>
 		<Description>Roughly-cut stone tiles. Not super pretty, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources.</Description>
 		<texturePath>Terrain/Surfaces/Flagstone</texturePath>
@@ -44,7 +44,7 @@
 
 
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileSandstone</DefName>
 		<label>sandstone tile</label>
 		<color>(187, 122, 120)</color>
@@ -52,7 +52,7 @@
 			<BlocksSandstone>4</BlocksSandstone>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneSandstone</DefName>
 		<label>sandstone flagstone</label>
 		<color>(187, 122, 120)</color>
@@ -62,7 +62,7 @@
 	</TerrainDef>
 
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileGranite</DefName>
 		<label>granite tile</label>
 		<color>(176, 113, 85)</color>
@@ -70,7 +70,7 @@
 			<BlocksGranite>4</BlocksGranite>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneGranite</DefName>
 		<label>granite flagstone</label>
 		<color>(176, 113, 85)</color>
@@ -79,7 +79,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileLimestone</DefName>
 		<label>limestone tile</label>
 		<color>(235, 222, 197)</color>
@@ -87,7 +87,7 @@
 			<BlocksLimestone>4</BlocksLimestone>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneLimestone</DefName>
 		<label>limestone flagstone</label>
 		<color>(235, 222, 197)</color>
@@ -96,7 +96,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileSlate</DefName>
 		<label>slate tile</label>
 		<color>(61, 61, 61)</color>
@@ -104,7 +104,7 @@
 			<BlocksSlate>4</BlocksSlate>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneSlate</DefName>
 		<label>slate flagstone</label>
 		<color>(61, 61, 61)</color>
@@ -113,7 +113,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileMarble</DefName>
 		<label>marble tile</label>
 		<color>(224, 224, 224)</color>
@@ -121,7 +121,7 @@
 			<BlocksMarble>4</BlocksMarble>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneMarble</DefName>
 		<label>marble flagstone</label>
 		<color>(224, 224, 224)</color>
@@ -130,7 +130,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileClaystone</DefName>
 		<label>claystone tile</label>
 		<color>(228, 188, 147)</color>
@@ -138,7 +138,7 @@
 			<BlocksClaystone>4</BlocksClaystone>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneClaystone</DefName>
 		<label>claystone flagstone</label>
 		<color>(228, 188, 147)</color>
@@ -147,7 +147,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileAndesite</DefName>
 		<label>andesite tile</label>
 		<color>(155, 164, 166)</color>
@@ -155,7 +155,7 @@
 			<BlocksAndesite>4</BlocksAndesite>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneAndesite</DefName>
 		<label>andesite flagstone</label>
 		<color>(155, 164, 166)</color>
@@ -164,7 +164,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileRhyolite</DefName>
 		<label>rhyolite tile</label>
 		<color>(123, 108, 116)</color>
@@ -172,7 +172,7 @@
 			<BlocksRhyolite>4</BlocksRhyolite>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneRhyolite</DefName>
 		<label>rhyolite flagstone</label>
 		<color>(123, 108, 116)</color>
@@ -181,7 +181,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileGneiss</DefName>
 		<label>gneiss tile</label>
 		<color>(150, 141, 98)</color>
@@ -189,7 +189,7 @@
 			<BlocksGneiss>4</BlocksGneiss>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneGneiss</DefName>
 		<label>gneiss flagstone</label>
 		<color>(150, 141, 98)</color>
@@ -198,7 +198,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileQuartzite</DefName>
 		<label>quartzite tile</label>
 		<color>(155, 156, 160)</color>
@@ -206,7 +206,7 @@
 			<BlocksQuartzite>4</BlocksQuartzite>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneQuartzite</DefName>
 		<label>quartzite flagstone</label>
 		<color>(155, 156, 160)</color>
@@ -215,7 +215,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileSchist</DefName>
 		<label>schist tile</label>
 		<color>(73, 86, 69)</color>
@@ -223,7 +223,7 @@
 			<BlocksSchist>4</BlocksSchist>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneSchist</DefName>
 		<label>schist flagstone</label>
 		<color>(73, 86, 69)</color>
@@ -232,7 +232,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileGabbro</DefName>
 		<label>gabbro tile</label>
 		<color>(122, 122, 122)</color>
@@ -240,7 +240,7 @@
 			<BlocksGabbro>4</BlocksGabbro>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneGabbro</DefName>
 		<label>gabbro flagstone</label>
 		<color>(122, 122, 122)</color>
@@ -249,7 +249,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileDiorite</DefName>
 		<label>diorite tile</label>
 		<color>(204, 204, 204)</color>
@@ -257,7 +257,7 @@
 			<BlocksDiorite>4</BlocksDiorite>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneDiorite</DefName>
 		<label>diorite flagstone</label>
 		<color>(204, 204, 204)</color>
@@ -266,7 +266,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileDunite</DefName>
 		<label>dunite tile</label>
 		<color>(151, 179, 147)</color>
@@ -274,7 +274,7 @@
 			<BlocksDunite>4</BlocksDunite>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneDunite</DefName>
 		<label>dunite flagstone</label>
 		<color>(151, 179, 147)</color>
@@ -283,7 +283,7 @@
 		</CostList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TileStoneBase">
+	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TilePegmatite</DefName>
 		<label>pegmatite tile</label>
 		<color>(149, 110, 100)</color>
@@ -291,7 +291,7 @@
 			<BlocksPegmatite>4</BlocksPegmatite>
 		</CostList>
 	</TerrainDef>
-	<TerrainDef ParentName="FlagstoneBase">
+	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstonePegmatite</DefName>
 		<label>pegmatite flagstone</label>
 		<color>(149, 110, 100)</color>

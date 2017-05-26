@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<DesignationCategoryDef>
-		<DefName>STN_Floors</DefName>
-		<label>Stone Floors</label>
-		<description>Stone floors added by Cupro's Stones.</description>
-		<order>210</order>
-		<specialDesignatorClasses>
-			<li>Designator_Cancel</li>
-			<li>Designator_SmoothFloor</li>
-			<li>Designator_RemoveFloor</li>
-		</specialDesignatorClasses>
+	<DesignationCategoryDef Name="STN_DesignationInsertion" Abstract="True">
+		<description>Insertion hook for patching designations when Stuffed Floors isn't installed.</description>
 	</DesignationCategoryDef>  
 
 </Defs>

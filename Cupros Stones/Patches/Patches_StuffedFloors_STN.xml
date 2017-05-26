@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- If Stuffed Floor is not found, add the designation category -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="CuprosStones.PatchOperationFindMod">
+				<modName>Stuffed Floors</modName>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationInsert">
+				<success>Always</success>
+				<xpath>//DesignationCategoryDef[@Name="STN_DesignationInsertion"]</xpath>
+				<Order>Prepend</Order>
+				<value>
+					<DesignationCategoryDef>
+						<DefName>STN_Floors</DefName>
+						<label>Stone Floors</label>
+						<description>Stone floors added by Cupro's Stones.</description>
+						<order>210</order>
+						<specialDesignatorClasses>
+							<li>Designator_Cancel</li>
+							<li>Designator_SmoothFloor</li>
+							<li>Designator_RemoveFloor</li>
+						</specialDesignatorClasses>
+					</DesignationCategoryDef>  
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+	<!-- If Stuffed Floor is found, remove the designation category from floors -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="CuprosStones.PatchOperationFindMod">
+				<modName>Stuffed Floors</modName>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>//TerrainDef[@Name = "STN_FloorBase"]/designationCategory</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>//DesignationCategoryDef[DefName = "STN_Floors"]</xpath>
+			</li>
+		</Operations>
+	</Operation>
+
+</Patch>
