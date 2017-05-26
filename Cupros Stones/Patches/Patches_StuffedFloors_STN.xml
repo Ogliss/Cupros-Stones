@@ -40,9 +40,6 @@
 			<li Class="PatchOperationRemove">
 				<xpath>//TerrainDef[@Name = "STN_FloorBase"]/designationCategory</xpath>
 			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>//DesignationCategoryDef[DefName = "STN_Floors"]</xpath>
-			</li>
 		</Operations>
 	</Operation>
 
