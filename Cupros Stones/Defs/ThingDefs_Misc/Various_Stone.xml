@@ -15,7 +15,7 @@
 	<ThingDef Name="RockBase" ParentName="BuildingNaturalBase" Abstract="True" >
 		<thingClass>Mineable</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Linked/Rock_Atlas</texPath>
+			<texPath>Cupro/Object/Structure/Rock_Atlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
@@ -54,7 +54,7 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.4</fillPercent>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<texPath>Cupro/Item/NormalChunk</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<flipExtraRotation>80</flipExtraRotation>
 		</graphicData>
@@ -223,6 +223,7 @@
 		<label>granite</label>
 		<description>A very hard igneous rock.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath>
 			<color>(176, 113, 85)</color>
 		</graphicData>
 		<statBases>
@@ -483,6 +484,7 @@
 		<label>marble</label>
 		<description>A soft metamorphic rock.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockMarbled_Atlas</texPath>
 			<color>(224, 224, 224)</color>
 		</graphicData>
 		<statBases>
@@ -499,7 +501,7 @@
 		<defName>ChunkMarble</defName>
 		<label>marble chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<texPath>Cupro/Item/ChunkMarbled</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<color>(224, 224, 224)</color>
 		</graphicData>
@@ -589,8 +591,6 @@
 		<defName>ChunkClaystone</defName>
 		<label>claystone chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 			<color>(228, 188, 147)</color>
 		</graphicData>
 		<statBases>
@@ -663,6 +663,7 @@
 		<label>andesite</label>
 		<description>A fine-grained igneous rock found in mountainous regions where it was brought to the surface by continental collisions.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath>
 			<color>(155, 164, 166)</color>
 		</graphicData>
 		<statBases>
@@ -678,8 +679,7 @@
 		<defName>ChunkAndesite</defName>
 		<label>andesite chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Cupro/Item/ChunkGranitic</texPath>
 			<color>(155, 164, 166)</color>
 		</graphicData>
 		<statBases>
@@ -764,8 +764,6 @@
 		<defName>ChunkRhyolite</defName>
 		<label>rhyolite chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 			<color>(123, 108, 116)</color>
 		</graphicData>
 		<statBases>
@@ -852,8 +850,7 @@
 		<defName>ChunkGneiss</defName>
 		<label>gneiss chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Cupro/Item/ChunkBanded</texPath>
 			<color>(150, 141, 98)</color>
 		</graphicData>
 		<statBases>
@@ -939,8 +936,6 @@
 		<defName>ChunkQuartzite</defName>
 		<label>quartzite chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 			<color>(155, 156, 160)</color>
 		</graphicData>
 		<statBases>
@@ -1025,8 +1020,6 @@
 		<defName>ChunkSchist</defName>
 		<label>schist chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 			<color>(73, 86, 69)</color>
 		</graphicData>
 		<statBases>
@@ -1097,6 +1090,7 @@
 		<label>gabbro</label>
 		<description>A dense igneous rock formed by the slow cooling of magma, typically found on the ocean floor.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath>
 			<color>(122, 122, 122)</color>
 		</graphicData>
 		<statBases>
@@ -1112,8 +1106,7 @@
 		<defName>ChunkGabbro</defName>
 		<label>gabbro chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Cupro/Item/ChunkGranitic</texPath>
 			<color>(122, 122, 122)</color>
 		</graphicData>
 		<statBases>
@@ -1183,6 +1176,7 @@
 		<label>diorite</label>
 		<description>An extremely hard igneous rock able to hold a high polish.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath>
 			<color>(204, 204, 204)</color>
 		</graphicData>
 		<statBases>
@@ -1199,8 +1193,7 @@
 		<defName>ChunkDiorite</defName>
 		<label>diorite chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Cupro/Item/ChunkGranitic</texPath>
 			<color>(204, 204, 204)</color>
 		</graphicData>
 		<statBases>
@@ -1288,8 +1281,6 @@
 		<defName>ChunkDunite</defName>
 		<label>dunite chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 			<color>(151, 179, 147)</color>
 		</graphicData>
 		<statBases>
@@ -1375,8 +1366,6 @@
 		<defName>ChunkPegmatite</defName>
 		<label>pegmatite chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 			<color>(149, 110, 100)</color>
 		</graphicData>
 		<statBases>

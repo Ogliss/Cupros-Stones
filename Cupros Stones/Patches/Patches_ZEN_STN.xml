@@ -5,7 +5,7 @@
 	
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
-		<xpath>//RoadDef[@Name="ZEN_GravelPathBase"]</xpath>
+		<xpath>/Defs/RoadDef[@Name="ZEN_GravelPathBase"]</xpath>
 		<Order>Prepend</Order>
 		<value>
 			<RoadDef ParentName="ZEN_GravelPathBase">
@@ -177,7 +177,7 @@
 
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
-		<xpath>//TerrainDef[@Name="ZEN_RoughBase"]</xpath>
+		<xpath>/TerrainDefs/TerrainDef[@Name="ZEN_RoughBase"]</xpath>
 		<Order>Prepend</Order>
 		<value>
 			<TerrainDef ParentName="ZEN_RoughBase">
@@ -265,7 +265,7 @@
 
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
-		<xpath>//TerrainDef[@Name="ZEN_NormalBase"]</xpath>
+		<xpath>/TerrainDefs/TerrainDef[@Name="ZEN_NormalBase"]</xpath>
 		<Order>Prepend</Order>
 		<value>
 			<TerrainDef ParentName="ZEN_NormalBase">
@@ -359,61 +359,61 @@
 		<success>Always</success>
 		<Operations>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelRoughSandstone"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughSandstone"]/color</xpath>
 				<value>
 					<color>(187, 122, 120)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelRoughGranite"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughGranite"]/color</xpath>
 				<value>
 					<color>(176, 113, 85)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelRoughLimestone"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughLimestone"]/color</xpath>
 				<value>
 					<color>(235, 222, 197)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelRoughSlate"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughSlate"]/color</xpath>
 				<value>
 					<color>(61, 61, 61)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelRoughMarble"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughMarble"]/color</xpath>
 				<value>
 					<color>(224, 224, 224)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelNormalSandstone"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalSandstone"]/color</xpath>
 				<value>
 					<color>(187, 122, 120)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelNormalGranite"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalGranite"]/color</xpath>
 				<value>
 					<color>(176, 113, 85)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelNormalLimestone"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalLimestone"]/color</xpath>
 				<value>
 					<color>(235, 222, 197)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelNormalSlate"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalSlate"]/color</xpath>
 				<value>
 					<color>(61, 61, 61)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>//TerrainDef[DefName="ZEN_GravelNormalMarble"]/color</xpath>
+				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalMarble"]/color</xpath>
 				<value>
 					<color>(224, 224, 224)</color>
 				</value>
