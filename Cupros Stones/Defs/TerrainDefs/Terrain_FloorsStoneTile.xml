@@ -11,7 +11,7 @@
 		<statBases>
 			<WorkToBuild>135</WorkToBuild>
 		</statBases>
-		<designationCategory>STN_Floors</designationCategory>
+		<designationCategory>Floors</designationCategory>
 		<Fertility>0</Fertility>
 		<constructEffect>ConstructDirt</constructEffect>
 		<AcceptTerrainSourceFilth>True</AcceptTerrainSourceFilth>

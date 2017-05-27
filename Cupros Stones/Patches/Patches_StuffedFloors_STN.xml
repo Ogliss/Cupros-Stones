@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- If Stuffed Floors is not found, add the designation category -->
+	<!-- If Stuffed Floors is not found, add the designation category and assign it -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<Operations>
@@ -27,20 +27,37 @@
 					</DesignationCategoryDef>  
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[@Name = "STN_FloorBase"]/designationCategory</xpath>
+				<value>
+					<designationCategory>STN_Floors</designationCategory>
+				</value>
+			</li>
 		</Operations>
 	</Operation>
 
-	<!-- If Stuffed Floors is found, remove the designation category from floors -->
+	<!-- If Stuffed Floors is found, add my floors to the obsoletes -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<Operations>
 			<li Class="CuprosStones.PatchOperationFindMod">
 				<modName>Stuffed Floors</modName>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/TerrainDef[@Name = "STN_FloorBase"]/designationCategory</xpath>
+			<li Class="PatchOperationInsert">
+				<success>Always</success>
+				<xpath>/Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Flagstones"]/obsoletes</xpath>
+				<Order>Append</Order>
 				<value>
-					<designationCategory>Floors</designationCategory>
+					<li>FlagstoneClaystone</li>
+					<li>FlagstoneAndesite</li>
+					<li>FlagstoneRhyolite</li>
+					<li>FlagstoneGneiss</li>
+					<li>FlagstoneQuartzite</li>
+					<li>FlagstoneSchist</li>
+					<li>FlagstoneGabbro</li>
+					<li>FlagstoneDiorite</li>
+					<li>FlagstoneDunite</li>
+					<li>FlagstonePegmatite</li>
 				</value>
 			</li>
 		</Operations>
