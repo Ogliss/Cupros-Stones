@@ -43,10 +43,8 @@
 			<li Class="CuprosStones.PatchOperationFindMod">
 				<modName>Stuffed Floors</modName>
 			</li>
-			<li Class="PatchOperationInsert">
-				<success>Always</success>
-				<xpath>/Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Flagstones"]/obsoletes</xpath>
-				<Order>Append</Order>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Flagstones"]/defNames</xpath>
 				<value>
 					<li>FlagstoneClaystone</li>
 					<li>FlagstoneAndesite</li>
@@ -58,6 +56,18 @@
 					<li>FlagstoneDiorite</li>
 					<li>FlagstoneDunite</li>
 					<li>FlagstonePegmatite</li>
+					<!-- This layout will likely change in the future with the addition of A17 tiles. It at least reduces clutter for now -->
+					<!-- For now I'll add these here to remove them, adding to obsoletes or creating a subcategory didn't work -->
+					<li>TileClaystone</li>
+					<li>TileAndesite</li>
+					<li>TileRhyolite</li>
+					<li>TileGneiss</li>
+					<li>TileQuartzite</li>
+					<li>TileSchist</li>
+					<li>TileGabbro</li>
+					<li>TileDiorite</li>
+					<li>TileDunite</li>
+					<li>TilePegmatite</li>
 				</value>
 			</li>
 		</Operations>
