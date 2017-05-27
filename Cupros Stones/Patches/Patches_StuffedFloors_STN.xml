@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- If Stuffed Floor is not found, add the designation category -->
+	<!-- If Stuffed Floors is not found, add the designation category -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<Operations>
@@ -11,7 +11,7 @@
 			</li>
 			<li Class="PatchOperationInsert">
 				<success>Always</success>
-				<xpath>//DesignationCategoryDef[@Name="STN_DesignationInsertion"]</xpath>
+				<xpath>/Defs/DesignationCategoryDef[@Name="STN_DesignationInsertion"]</xpath>
 				<Order>Prepend</Order>
 				<value>
 					<DesignationCategoryDef>
@@ -30,15 +30,18 @@
 		</Operations>
 	</Operation>
 
-	<!-- If Stuffed Floor is found, remove the designation category from floors -->
+	<!-- If Stuffed Floors is found, remove the designation category from floors -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<Operations>
 			<li Class="CuprosStones.PatchOperationFindMod">
 				<modName>Stuffed Floors</modName>
 			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>//TerrainDef[@Name = "STN_FloorBase"]/designationCategory</xpath>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[@Name = "STN_FloorBase"]/designationCategory</xpath>
+				<value>
+					<designationCategory>Floors</designationCategory>
+				</value>
 			</li>
 		</Operations>
 	</Operation>
