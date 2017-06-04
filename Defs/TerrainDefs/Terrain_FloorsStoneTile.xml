@@ -218,7 +218,7 @@
 	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileSchist</DefName>
 		<label>schist tile</label>
-		<color>(73, 86, 69)</color>
+		<color>(105, 124, 102)</color>
 		<CostList>
 			<BlocksSchist>4</BlocksSchist>
 		</CostList>
@@ -226,7 +226,7 @@
 	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneSchist</DefName>
 		<label>schist flagstone</label>
-		<color>(73, 86, 69)</color>
+		<color>(105, 124, 102)</color>
 		<CostList>
 			<BlocksSchist>4</BlocksSchist>
 		</CostList>

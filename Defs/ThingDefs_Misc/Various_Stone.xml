@@ -1005,7 +1005,7 @@
 		<label>schist</label>
 		<description>A metamorphic rock colored by the minerals actinolite and epidote.</description>
 		<graphicData>
-			<color>(73, 86, 69)</color>
+			<color>(105, 124, 102)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -1020,7 +1020,7 @@
 		<defName>ChunkSchist</defName>
 		<label>schist chunk</label>
 		<graphicData>
-			<color>(73, 86, 69)</color>
+			<color>(105, 124, 102)</color>
 		</graphicData>
 		<statBases>
 			<Mass>20</Mass>
@@ -1039,14 +1039,14 @@
 		<label>schist blocks</label>
 		<description>Blocks of solid schist.</description>
 		<graphicData>
-			<color>(73, 86, 69)</color>
+			<color>(105, 124, 102)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.9</MarketValue>
 			<Mass>1</Mass>
 		</statBases>
 		<stuffProps>
-			<color>(73, 86, 69)</color>
+			<color>(105, 124, 102)</color>
 			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
