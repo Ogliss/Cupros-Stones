@@ -133,6 +133,7 @@
 		<label>sandstone</label>
 		<description>A sedimentary rock composed of sand particles compressed together.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
 			<color>(187, 122, 120)</color>
 		</graphicData>
 		<statBases>
@@ -148,7 +149,7 @@
 		<defName>ChunkSandstone</defName>
 		<label>sandstone chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<texPath>Cupro/Item/ChunkSmooth</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<color>(187, 122, 120)</color>
 		</graphicData>
@@ -397,6 +398,7 @@
 		<label>slate</label>
 		<description>A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
 			<color>(61, 61, 61)</color>
 		</graphicData>
 		<statBases>
@@ -412,7 +414,7 @@
 		<defName>ChunkSlate</defName>
 		<label>slate chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<texPath>Cupro/Item/ChunkSmooth</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<color>(61, 61, 61)</color>
 		</graphicData>
@@ -576,6 +578,7 @@
 		<label>claystone</label>
 		<description>A soft, fine-grained sedimentary rock made mostly of compacted clay particles.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
 			<color>(228, 188, 147)</color>
 		</graphicData>
 		<statBases>
@@ -591,6 +594,7 @@
 		<defName>ChunkClaystone</defName>
 		<label>claystone chunk</label>
 		<graphicData>
+			<texPath>Cupro/Item/ChunkSmooth</texPath>
 			<color>(228, 188, 147)</color>
 		</graphicData>
 		<statBases>
@@ -749,6 +753,7 @@
 		<label>rhyolite</label>
 		<description>A fine-grained igneous rock closely related to granite.</description>
 		<graphicData>
+			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
 			<color>(123, 108, 116)</color>
 		</graphicData>
 		<statBases>
@@ -764,6 +769,7 @@
 		<defName>ChunkRhyolite</defName>
 		<label>rhyolite chunk</label>
 		<graphicData>
+			<texPath>Cupro/Item/ChunkSmooth</texPath>
 			<color>(123, 108, 116)</color>
 		</graphicData>
 		<statBases>
