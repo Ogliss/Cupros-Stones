@@ -491,7 +491,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>450</MaxHitPoints>
-			<Beauty>-1</Beauty>
+			<Beauty>1</Beauty>
 		</statBases>
 		<building>
 			<mineableThing>ChunkMarble</mineableThing>
@@ -537,7 +537,7 @@
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>marble</stuffAdjective>
 			<statFactors>
-				<Beauty>1.35</Beauty>
+				<Beauty>1.5</Beauty>
 				<MarketValue>0.45</MarketValue>
 				<MaxHitPoints>1.2</MaxHitPoints>
 				<WorkToBuild>5.5</WorkToBuild>
