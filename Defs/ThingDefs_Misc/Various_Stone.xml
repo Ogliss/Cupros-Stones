@@ -134,7 +134,7 @@
 		<description>A sedimentary rock composed of sand particles compressed together.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
-			<color>(187, 122, 120)</color>
+			<color>(186, 126, 121)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
@@ -151,7 +151,7 @@
 		<graphicData>
 			<texPath>Cupro/Item/ChunkSmooth</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			<color>(187, 122, 120)</color>
+			<color>(186, 126, 121)</color>
 		</graphicData>
 		<statBases>
 			<Mass>20</Mass>
@@ -170,7 +170,7 @@
 		<label>sandstone blocks</label>
 		<description>Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily.</description>
 		<graphicData>
-			<color>(187, 122, 120)</color>
+			<color>(186, 126, 121)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.9</MarketValue>
@@ -178,7 +178,7 @@
 			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
-			<color>(187, 122, 120)</color>
+			<color>(186, 126, 121)</color>
 			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
@@ -225,7 +225,7 @@
 		<description>A very hard igneous rock.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath>
-			<color>(176, 113, 85)</color>
+			<color>(201, 150, 115)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>900</MaxHitPoints>
@@ -242,7 +242,7 @@
 		<graphicData>
 			<texPath>Things/Item/Chunk/ChunkStone</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			<color>(176, 113, 85)</color>
+			<color>(201, 150, 115)</color>
 		</graphicData>
 		<statBases>
 			<Mass>25</Mass>
@@ -261,7 +261,7 @@
 		<label>granite blocks</label>
 		<description>Blocks of solid granite. Granite is a very hard stone.</description>
 		<graphicData>
-			<color>(176, 113, 85)</color>
+			<color>(201, 150, 115)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>2.1</MarketValue>
@@ -269,7 +269,7 @@
 			<SharpDamageMultiplier>0.65</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
-			<color>(176, 113, 85)</color>
+			<color>(201, 150, 115)</color>
 			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
@@ -399,7 +399,7 @@
 		<description>A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
-			<color>(61, 61, 61)</color>
+			<color>(70, 75, 70)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -416,7 +416,7 @@
 		<graphicData>
 			<texPath>Cupro/Item/ChunkSmooth</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			<color>(61, 61, 61)</color>
+			<color>(70, 75, 70)</color>
 		</graphicData>
 		<statBases>
 			<Mass>18</Mass>
@@ -435,14 +435,14 @@
 		<label>slate blocks</label>
 		<description>Blocks of solid slate. A dull-looking rock that chips easily.</description>
 		<graphicData>
-			<color>(61, 61, 61)</color>
+			<color>(70, 75, 70)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.9</MarketValue>
 			<Mass>0.9</Mass>
 		</statBases>
 		<stuffProps>
-			<color>(61, 61, 61)</color>
+			<color>(70, 75, 70)</color>
 			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
@@ -840,7 +840,7 @@
 		<description>A hard metamorphic rock with a banded texture.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockBanded_Atlas</texPath>
-			<color>(150, 141, 98)</color>
+			<color>(146, 138, 104)</color>
 			</graphicData>
 		<statBases>
 			<MaxHitPoints>725</MaxHitPoints>
@@ -857,7 +857,7 @@
 		<label>gneiss chunk</label>
 		<graphicData>
 			<texPath>Cupro/Item/ChunkBanded</texPath>
-			<color>(150, 141, 98)</color>
+			<color>(146, 138, 104)</color>
 		</graphicData>
 		<statBases>
 			<Mass>25</Mass>
@@ -876,14 +876,14 @@
 		<label>gneiss blocks</label>
 		<description>Blocks of solid gneiss.</description>
 		<graphicData>
-			<color>(150, 141, 98)</color>
+			<color>(146, 138, 104)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>2</MarketValue>
 			<Mass>1.25</Mass>
 		</statBases>
 		<stuffProps>
-			<color>(150, 141, 98)</color>
+			<color>(146, 138, 104)</color>
 			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
@@ -1271,7 +1271,7 @@
 		<label>dunite</label>
 		<description>An igneous rock consisting of over 90% olivine, which leads to its distinct color.</description>
 		<graphicData>
-			<color>(151, 179, 147)</color>
+			<color>(154, 162, 126)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>800</MaxHitPoints>
@@ -1287,7 +1287,7 @@
 		<defName>ChunkDunite</defName>
 		<label>dunite chunk</label>
 		<graphicData>
-			<color>(151, 179, 147)</color>
+			<color>(154, 162, 126)</color>
 		</graphicData>
 		<statBases>
 			<Mass>23</Mass>
@@ -1306,14 +1306,14 @@
 		<label>dunite blocks</label>
 		<description>Blocks of solid dunite.</description>
 		<graphicData>
-			<color>(151, 179, 147)</color>
+			<color>(154, 162, 126)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>2</MarketValue>
 			<Mass>1.15</Mass>
 		</statBases>
 		<stuffProps>
-			<color>(151, 179, 147)</color>
+			<color>(154, 162, 126)</color>
 			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>

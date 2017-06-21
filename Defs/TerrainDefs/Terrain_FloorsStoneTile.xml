@@ -47,7 +47,7 @@
 	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileSandstone</DefName>
 		<label>sandstone tile</label>
-		<color>(187, 122, 120)</color>
+		<color>(186, 126, 121)</color>
 		<CostList>
 			<BlocksSandstone>4</BlocksSandstone>
 		</CostList>
@@ -55,7 +55,7 @@
 	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneSandstone</DefName>
 		<label>sandstone flagstone</label>
-		<color>(187, 122, 120)</color>
+		<color>(186, 126, 121)</color>
 		<CostList>
 			<BlocksSandstone>4</BlocksSandstone>
 		</CostList>
@@ -65,7 +65,7 @@
 	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileGranite</DefName>
 		<label>granite tile</label>
-		<color>(176, 113, 85)</color>
+		<color>(201, 150, 115)</color>
 		<CostList>
 			<BlocksGranite>4</BlocksGranite>
 		</CostList>
@@ -73,7 +73,7 @@
 	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneGranite</DefName>
 		<label>granite flagstone</label>
-		<color>(176, 113, 85)</color>
+		<color>(201, 150, 115)</color>
 		<CostList>
 			<BlocksGranite>4</BlocksGranite>
 		</CostList>
@@ -99,7 +99,7 @@
 	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileSlate</DefName>
 		<label>slate tile</label>
-		<color>(61, 61, 61)</color>
+		<color>(70, 75, 70)</color>
 		<CostList>
 			<BlocksSlate>4</BlocksSlate>
 		</CostList>
@@ -107,7 +107,7 @@
 	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneSlate</DefName>
 		<label>slate flagstone</label>
-		<color>(61, 61, 61)</color>
+		<color>(70, 75, 70)</color>
 		<CostList>
 			<BlocksSlate>4</BlocksSlate>
 		</CostList>
@@ -184,7 +184,7 @@
 	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileGneiss</DefName>
 		<label>gneiss tile</label>
-		<color>(150, 141, 98)</color>
+		<color>(146, 138, 104)</color>
 		<CostList>
 			<BlocksGneiss>4</BlocksGneiss>
 		</CostList>
@@ -192,7 +192,7 @@
 	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneGneiss</DefName>
 		<label>gneiss flagstone</label>
-		<color>(150, 141, 98)</color>
+		<color>(146, 138, 104)</color>
 		<CostList>
 			<BlocksGneiss>4</BlocksGneiss>
 		</CostList>
@@ -269,7 +269,7 @@
 	<TerrainDef ParentName="STN_TileStoneBase">
 		<DefName>TileDunite</DefName>
 		<label>dunite tile</label>
-		<color>(151, 179, 147)</color>
+		<color>(154, 162, 126)</color>
 		<CostList>
 			<BlocksDunite>4</BlocksDunite>
 		</CostList>
@@ -277,7 +277,7 @@
 	<TerrainDef ParentName="STN_FlagstoneBase">
 		<DefName>FlagstoneDunite</DefName>
 		<label>dunite flagstone</label>
-		<color>(151, 179, 147)</color>
+		<color>(154, 162, 126)</color>
 		<CostList>
 			<BlocksDunite>4</BlocksDunite>
 		</CostList>
