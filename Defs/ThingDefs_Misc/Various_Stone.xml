@@ -240,7 +240,7 @@
 		<defName>ChunkGranite</defName>
 		<label>granite chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<texPath>Cupro/Item/ChunkGranitic</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<color>(201, 150, 115)</color>
 		</graphicData>
@@ -327,7 +327,7 @@
 		<defName>ChunkLimestone</defName>
 		<label>limestone chunk</label>
 		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<texPath>Cupro/Item/ChunkSmooth</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<color>(235, 222, 197)</color>
 		</graphicData>
