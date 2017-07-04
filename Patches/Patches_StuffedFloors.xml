@@ -36,7 +36,7 @@
 		</Operations>
 	</Operation>
 
-	<!-- If Stuffed Floors is found, add my floors to the obsoletes -->
+	<!-- If Stuffed Floors is found, add my floors to the defNames -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<Operations>
@@ -56,18 +56,48 @@
 					<li>FlagstoneDiorite</li>
 					<li>FlagstoneDunite</li>
 					<li>FlagstonePegmatite</li>
-					<!-- This layout will likely change in the future with the addition of A17 tiles. It at least reduces clutter for now -->
-					<!-- For now I'll add these here to remove them, adding to obsoletes or creating a subcategory didn't work -->
-					<li>TileClaystone</li>
-					<li>TileAndesite</li>
-					<li>TileRhyolite</li>
-					<li>TileGneiss</li>
-					<li>TileQuartzite</li>
-					<li>TileSchist</li>
-					<li>TileGabbro</li>
-					<li>TileDiorite</li>
-					<li>TileDunite</li>
-					<li>TilePegmatite</li>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+	<!-- If Stuffed Floors is found, add vanilla tile floors -->
+	<!-- This won't be necessary in the future, but for now there isn't a tile group -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="CuprosStones.PatchOperationFindMod">
+				<modName>Stuffed Floors</modName>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/Defs/TerrainDef[@Name="STN_FloorBase"]</xpath>
+				<Order>Prepend</Order>
+				<value>
+					<ArchitectSense.DesignationSubCategoryDef>
+						<defName>SubCategory_CuproStoneTiles</defName>
+						<label>Large bricks</label>
+						<description>Refined, carefully-cut stone tiles for a castle feeling. Pretty to look at, but they take a long time to lay.</description>
+						<defNames>
+							<li>TileSandstone</li>
+							<li>TileGranite</li>
+							<li>TileLimestone</li>
+							<li>TileSlate</li>
+							<li>TileMarble</li>
+							<li>TileClaystone</li>
+							<li>TileAndesite</li>
+							<li>TileRhyolite</li>
+							<li>TileGneiss</li>
+							<li>TileQuartzite</li>
+							<li>TileSchist</li>
+							<li>TileGabbro</li>
+							<li>TileDiorite</li>
+							<li>TileDunite</li>
+							<li>TilePegmatite</li>
+						</defNames>
+						<designationCategory>Floors</designationCategory>
+						<preview>false</preview>
+						<emulateStuff>true</emulateStuff>
+					</ArchitectSense.DesignationSubCategoryDef>
 				</value>
 			</li>
 		</Operations>
