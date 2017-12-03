@@ -4,15 +4,13 @@ namespace CuprosStones {
 
   public class Settings : ModSettings {
 
-    internal static IntRange StoneTypesAvailable = new IntRange(2, 3);
+    internal static IntRange StoneTypesAvailable = new IntRange(4, 5);
 
-    // Ref issues when using a dictionary, array doesn't Scribe well, and list doesn't guarantee order
-    // This method doesn't add much overhead, it's just fugly
     internal static bool SpawnLimestone = true;
     internal static bool SpawnSandstone = true;
     internal static bool SpawnClaystone = true;
     internal static bool SpawnAndesite = true;
-    internal static bool SpawnRhyolite = true;
+    internal static bool SpawnSyenite = true;
 
     internal static bool SpawnGneiss = true;
     internal static bool SpawnMarble = true;
@@ -27,14 +25,14 @@ namespace CuprosStones {
     internal static bool SpawnPegmatite = true;
 
 
-    public override void ExposeData() {
+		public override void ExposeData() {
       base.ExposeData();
-      Scribe_Values.Look(ref StoneTypesAvailable, "StoneTypesAvailable", new IntRange(2, 3));
+      Scribe_Values.Look(ref StoneTypesAvailable, "StoneTypesAvailable", new IntRange(4, 5));
       Scribe_Values.Look(ref SpawnLimestone, "SpawnLimestone", true);
       Scribe_Values.Look(ref SpawnSandstone, "SpawnSandstone", true);
       Scribe_Values.Look(ref SpawnClaystone, "SpawnClaystone", true);
       Scribe_Values.Look(ref SpawnAndesite, "SpawnAndesite", true);
-      Scribe_Values.Look(ref SpawnRhyolite, "SpawnRhyolite", true);
+      Scribe_Values.Look(ref SpawnSyenite, "SpawnSyenite", true);
       Scribe_Values.Look(ref SpawnGneiss, "SpawnGneiss", true);
       Scribe_Values.Look(ref SpawnMarble, "SpawnMarble", true);
       Scribe_Values.Look(ref SpawnQuartzite, "SpawnQuartzite", true);
@@ -45,7 +43,7 @@ namespace CuprosStones {
       Scribe_Values.Look(ref SpawnDiorite, "SpawnDiorite", true);
       Scribe_Values.Look(ref SpawnDunite, "SpawnDunite", true);
       Scribe_Values.Look(ref SpawnPegmatite, "SpawnPegmatite", true);
-    }
+		}
 
 
     public static bool StoneAllowedOrUndefined(ThingDef stone) {
@@ -61,8 +59,8 @@ namespace CuprosStones {
       if (stone == StoneDefOf.Andesite) {
         return SpawnAndesite;
       }
-      if (stone == StoneDefOf.Rhyolite) {
-        return SpawnRhyolite;
+      if (stone == StoneDefOf.Syenite) {
+        return SpawnSyenite;
       }
       if (stone == StoneDefOf.Gneiss) {
         return SpawnGneiss;

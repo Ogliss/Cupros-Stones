@@ -13,8 +13,8 @@ namespace CuprosStones {
     public static ThingDef ChunkClaystone;
     public static ThingDef Andesite;
     public static ThingDef ChunkAndesite;
-    public static ThingDef Rhyolite;
-    public static ThingDef ChunkRhyolite;
+    public static ThingDef Syenite;
+    public static ThingDef ChunkSyenite;
 
     public static ThingDef Gneiss;
     public static ThingDef ChunkGneiss;
@@ -37,5 +37,5 @@ namespace CuprosStones {
     public static ThingDef ChunkDunite;
     public static ThingDef Pegmatite;
     public static ThingDef ChunkPegmatite;
-  }
+	}
 }

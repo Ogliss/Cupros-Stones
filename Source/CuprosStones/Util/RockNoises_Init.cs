@@ -21,10 +21,11 @@ namespace CuprosStones {
 
       RockNoises.rockNoises = new List<RockNoises.RockNoise>();
       foreach (ThingDef current in Find.World.NaturalRockTypesIn(map.Tile)) {
-        RockNoises.RockNoise rockNoise = new RockNoises.RockNoise();
-        rockNoise.rockDef = current;
-        rockNoise.noise = new Perlin((multiplier * 0.004999999888241291), 2.0, 0.5, octaves, Rand.Range(0, 2147483647), QualityMode.Medium);
-        RockNoises.rockNoises.Add(rockNoise);
+				RockNoises.RockNoise rockNoise = new RockNoises.RockNoise() {
+					rockDef = current,
+					noise = new Perlin((multiplier * 0.004999999888241291), 2.0, 0.5, octaves, Rand.Range(0, 2147483647), QualityMode.Medium)
+				};
+				RockNoises.rockNoises.Add(rockNoise);
         NoiseDebugUI.StoreNoiseRender(rockNoise.noise, rockNoise.rockDef + " score", map.Size.ToIntVec2);
       }
     }

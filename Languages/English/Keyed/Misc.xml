@@ -2,25 +2,7 @@
 <LanguageData>
 	
 	<STN_LabelModName>Cupro's Stones</STN_LabelModName>
-	<STN_LabelTypesAvailable>Stone types in map generation:    </STN_LabelTypesAvailable>
-	<STN_TypesToSpawn>Stone Types Allowed To Spawn</STN_TypesToSpawn>
-	
-	<STN_Limestone>Limestone</STN_Limestone>
-	<STN_Sandstone>Sandstone</STN_Sandstone>
-	<STN_Claystone>Claystone</STN_Claystone>
-	<STN_Andesite>Andesite</STN_Andesite>
-	<STN_Rhyolite>Rhyolite</STN_Rhyolite>
-	
-	<STN_Gneiss>Gneiss</STN_Gneiss>
-	<STN_Marble>Marble</STN_Marble>
-	<STN_Quartzite>Quartzite</STN_Quartzite>
-	<STN_Slate>Slate</STN_Slate>
-	<STN_Schist>Schist</STN_Schist>
-	
-	<STN_Gabbro>Gabbro</STN_Gabbro>
-	<STN_Granite>Granite</STN_Granite>
-	<STN_Diorite>Diorite</STN_Diorite>
-	<STN_Dunite>Dunite</STN_Dunite>
-	<STN_Pegmatite>Pegmatite</STN_Pegmatite>
+	<STN_LabelStoneTypesAvailable>Stone types in map generation:    </STN_LabelStoneTypesAvailable>
+	<STN_StoneTypesToSpawn>Stone Types Allowed To Spawn</STN_StoneTypesToSpawn>
 
 </LanguageData>

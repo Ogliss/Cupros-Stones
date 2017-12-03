@@ -36,25 +36,24 @@
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.17.6362.34395, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\RimWorld1557Win\RimWorld1557Win_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\RimWorld_18.1700.762\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\RimWorld1546Win\RimWorld1546Win_Data\Managed\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RimWorld_18.1700.762\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Designator_PresetZoneAdd.cs" />
-    <Compile Include="PatchOperationFindMod.cs" />
+    <Compile Include="Util\PatchOperationModDependent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RockNoises_Init.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="Static.cs" />
-    <Compile Include="StoneDefOf.cs" />
-    <Compile Include="StonesMod.cs" />
-    <Compile Include="World_NaturalRockTypesIn.cs" />
-    <Compile Include="ZoneDef.cs" />
+    <Compile Include="Util\RockNoises_Init.cs" />
+    <Compile Include="Util\Settings.cs" />
+    <Compile Include="Static\Static.cs" />
+    <Compile Include="Static\StoneDefOf.cs" />
+    <Compile Include="Util\StonesMod.cs" />
+    <Compile Include="Util\World_NaturalRockTypesIn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

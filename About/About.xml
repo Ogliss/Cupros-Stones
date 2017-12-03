@@ -3,6 +3,6 @@
   <name>Cupro's Stones</name>
   <author>cuproPanda</author>
   <url>https://ludeon.com/forums/index.php?topic=32190</url>
-  <targetVersion>0.17.0</targetVersion>
-  <description>Adds 10 new types of stone.</description>
+  <targetVersion>0.18.0</targetVersion>
+  <description>Adds new types of stones. Stone types spawned in the world can be customized in the Mod Settings.</description>
 </ModMetaData>

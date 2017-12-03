@@ -6,7 +6,7 @@
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
 		<xpath>/Defs/RoadDef[@Name="ZEN_GravelPathBase"]</xpath>
-		<Order>Prepend</Order>
+		<order>Prepend</order>
 		<value>
 			<RoadDef ParentName="ZEN_GravelPathBase">
 				<defName>ZEN_GravelPathClaystone</defName>
@@ -41,8 +41,8 @@
 				</roadGenSteps>
 			</RoadDef>
 			<RoadDef ParentName="ZEN_GravelPathBase">
-				<defName>ZEN_GravelPathRhyolite</defName>
-				<label>rhyolite gravel path</label>
+				<defName>ZEN_GravelPathSyenite</defName>
+				<label>Syenite gravel path</label>
 				<roadGenSteps>
 					<li Class="RoadDefGenStep_Place">
 						<chancePerPositionCurve>
@@ -52,7 +52,7 @@
 								<li>(0.8, 0)</li>
 							</points>
 						</chancePerPositionCurve>
-						<place>ZEN_GravelRoughRhyolite</place>
+						<place>ZEN_GravelRoughSyenite</place>
 					</li>
 				</roadGenSteps>
 			</RoadDef>
@@ -177,176 +177,176 @@
 
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
-		<xpath>/TerrainDefs/TerrainDef[@Name="ZEN_RoughBase"]</xpath>
-		<Order>Prepend</Order>
+		<xpath>/Defs/TerrainDef[@Name="ZEN_RoughBase"]</xpath>
+		<order>Prepend</order>
 		<value>
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughClaystone</DefName>
+				<defName>ZEN_GravelRoughClaystone</defName>
 				<label>rough claystone gravel</label>
 				<color>(228, 188, 147)</color>
-				<CostList>
+				<costList>
 					<BlocksClaystone>2</BlocksClaystone>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughAndesite</DefName>
+				<defName>ZEN_GravelRoughAndesite</defName>
 				<label>rough andesite gravel</label>
 				<color>(155, 164, 166)</color>
-				<CostList>
+				<costList>
 					<BlocksAndesite>2</BlocksAndesite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughRhyolite</DefName>
-				<label>rough rhyolite gravel</label>
-				<color>(123, 108, 116)</color>
-				<CostList>
-					<BlocksRhyolite>2</BlocksRhyolite>
-				</CostList>
+				<defName>ZEN_GravelRoughSyenite</defName>
+				<label>rough Syenite gravel</label>
+				<color>(186, 126, 121)</color>
+				<costList>
+					<BlocksSyenite>2</BlocksSyenite>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughGneiss</DefName>
+				<defName>ZEN_GravelRoughGneiss</defName>
 				<label>rough gneiss gravel</label>
 				<color>(146, 138, 104)</color>
-				<CostList>
+				<costList>
 					<BlocksGneiss>2</BlocksGneiss>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughQuartzite</DefName>
+				<defName>ZEN_GravelRoughQuartzite</defName>
 				<label>rough quartzite gravel</label>
 				<color>(155, 156, 160)</color>
-				<CostList>
+				<costList>
 					<BlocksQuartzite>2</BlocksQuartzite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughSchist</DefName>
+				<defName>ZEN_GravelRoughSchist</defName>
 				<label>rough schist gravel</label>
-				<color>(73, 86, 69)</color>
-				<CostList>
+				<color>(105, 124, 102)</color>
+				<costList>
 					<BlocksSchist>2</BlocksSchist>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughGabbro</DefName>
+				<defName>ZEN_GravelRoughGabbro</defName>
 				<label>rough gabbro gravel</label>
 				<color>(122, 122, 122)</color>
-				<CostList>
+				<costList>
 					<BlocksGabbro>2</BlocksGabbro>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughDiorite</DefName>
+				<defName>ZEN_GravelRoughDiorite</defName>
 				<label>rough diorite gravel</label>
 				<color>(204, 204, 204)</color>
-				<CostList>
+				<costList>
 					<BlocksDiorite>2</BlocksDiorite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughDunite</DefName>
+				<defName>ZEN_GravelRoughDunite</defName>
 				<label>rough dunite gravel</label>
 				<color>(154, 162, 126)</color>
-				<CostList>
+				<costList>
 					<BlocksDunite>2</BlocksDunite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_RoughBase">
-				<DefName>ZEN_GravelRoughPegmatite</DefName>
+				<defName>ZEN_GravelRoughPegmatite</defName>
 				<label>rough pegmatite gravel</label>
-				<color>(149, 110, 100)</color>
-				<CostList>
+				<color>(201, 150, 115)</color>
+				<costList>
 					<BlocksPegmatite>2</BlocksPegmatite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationInsert">
 		<success>Always</success>
-		<xpath>/TerrainDefs/TerrainDef[@Name="ZEN_NormalBase"]</xpath>
-		<Order>Prepend</Order>
+		<xpath>/Defs/TerrainDef[@Name="ZEN_NormalBase"]</xpath>
+		<order>Prepend</order>
 		<value>
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalClaystone</DefName>
+				<defName>ZEN_GravelNormalClaystone</defName>
 				<label>unraked claystone gravel</label>
 				<color>(228, 188, 147)</color>
-				<CostList>
+				<costList>
 					<BlocksClaystone>4</BlocksClaystone>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalAndesite</DefName>
+				<defName>ZEN_GravelNormalAndesite</defName>
 				<label>unraked andesite gravel</label>
 				<color>(155, 164, 166)</color>
-				<CostList>
+				<costList>
 					<BlocksAndesite>4</BlocksAndesite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalRhyolite</DefName>
-				<label>unraked rhyolite gravel</label>
-				<color>(123, 108, 116)</color>
-				<CostList>
-					<BlocksRhyolite>4</BlocksRhyolite>
-				</CostList>
+				<defName>ZEN_GravelNormalSyenite</defName>
+				<label>unraked Syenite gravel</label>
+				<color>(186, 126, 121)</color>
+				<costList>
+					<BlocksSyenite>4</BlocksSyenite>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalGneiss</DefName>
+				<defName>ZEN_GravelNormalGneiss</defName>
 				<label>unraked gneiss gravel</label>
 				<color>(146, 138, 104)</color>
-				<CostList>
+				<costList>
 					<BlocksGneiss>4</BlocksGneiss>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalQuartzite</DefName>
+				<defName>ZEN_GravelNormalQuartzite</defName>
 				<label>unraked quartzite gravel</label>
 				<color>(155, 156, 160)</color>
-				<CostList>
+				<costList>
 					<BlocksQuartzite>4</BlocksQuartzite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalSchist</DefName>
+				<defName>ZEN_GravelNormalSchist</defName>
 				<label>unraked schist gravel</label>
-				<color>(73, 86, 69)</color>
-				<CostList>
+				<color>(105, 124, 102)</color>
+				<costList>
 					<BlocksSchist>4</BlocksSchist>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalGabbro</DefName>
+				<defName>ZEN_GravelNormalGabbro</defName>
 				<label>unraked gabbro gravel</label>
 				<color>(122, 122, 122)</color>
-				<CostList>
+				<costList>
 					<BlocksGabbro>4</BlocksGabbro>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalDiorite</DefName>
+				<defName>ZEN_GravelNormalDiorite</defName>
 				<label>unraked diorite gravel</label>
 				<color>(204, 204, 204)</color>
-				<CostList>
+				<costList>
 					<BlocksDiorite>4</BlocksDiorite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalDunite</DefName>
+				<defName>ZEN_GravelNormalDunite</defName>
 				<label>unraked dunite gravel</label>
 				<color>(154, 162, 126)</color>
-				<CostList>
+				<costList>
 					<BlocksDunite>4</BlocksDunite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 			<TerrainDef ParentName="ZEN_NormalBase">
-				<DefName>ZEN_GravelNormalPegmatite</DefName>
+				<defName>ZEN_GravelNormalPegmatite</defName>
 				<label>unraked pegmatite gravel</label>
-				<color>(149, 110, 100)</color>
-				<CostList>
+				<color>(201, 150, 115)</color>
+				<costList>
 					<BlocksPegmatite>4</BlocksPegmatite>
-				</CostList>
+				</costList>
 			</TerrainDef>	
 		</value>
 	</Operation>
@@ -357,68 +357,68 @@
 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
-		<Operations>
+		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughSandstone"]/color</xpath>
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelRoughSandstone"]/color</xpath>
 				<value>
-					<color>(186, 126, 121)</color>
+					<color>(130,102,90)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughGranite"]/color</xpath>
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelRoughGranite"]/color</xpath>
 				<value>
-					<color>(201, 150, 115)</color>
+					<color>(114,101,106)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughLimestone"]/color</xpath>
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelRoughLimestone"]/color</xpath>
 				<value>
-					<color>(235, 222, 197)</color>
+					<color>(196, 187, 166)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughSlate"]/color</xpath>
-				<value>
-					<color>(70, 75, 70)</color>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelRoughMarble"]/color</xpath>
-				<value>
-					<color>(224, 224, 224)</color>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalSandstone"]/color</xpath>
-				<value>
-					<color>(186, 126, 121)</color>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalGranite"]/color</xpath>
-				<value>
-					<color>(201, 150, 115)</color>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalLimestone"]/color</xpath>
-				<value>
-					<color>(235, 222, 197)</color>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalSlate"]/color</xpath>
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelRoughSlate"]/color</xpath>
 				<value>
 					<color>(70, 75, 70)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/TerrainDefs/TerrainDef[DefName="ZEN_GravelNormalMarble"]/color</xpath>
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelRoughMarble"]/color</xpath>
 				<value>
-					<color>(224, 224, 224)</color>
+					<color>(224, 222, 220)</color>
 				</value>
 			</li>
-		</Operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelNormalSandstone"]/color</xpath>
+				<value>
+					<color>(130,102,90)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelNormalGranite"]/color</xpath>
+				<value>
+					<color>(114,101,106)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelNormalLimestone"]/color</xpath>
+				<value>
+					<color>(196, 187, 166)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelNormalSlate"]/color</xpath>
+				<value>
+					<color>(70, 75, 70)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="ZEN_GravelNormalMarble"]/color</xpath>
+				<value>
+					<color>(224, 222, 220)</color>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 
 </Patch>
