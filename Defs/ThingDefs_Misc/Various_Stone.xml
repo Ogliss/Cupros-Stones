@@ -110,7 +110,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(130,102,90)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>sandstone</stuffAdjective>
@@ -172,7 +172,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(114,101,106)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>granite</stuffAdjective>
@@ -230,7 +230,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(196, 187, 166)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>limestone</stuffAdjective>
@@ -288,7 +288,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(70, 75, 70)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>slate</stuffAdjective>
@@ -348,7 +348,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(224, 222, 220)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>marble</stuffAdjective>
@@ -411,7 +411,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(228, 188, 147)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>claystone</stuffAdjective>
@@ -495,7 +495,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(155, 164, 166)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>andesite</stuffAdjective>
@@ -577,7 +577,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(186, 126, 121)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>syenite</stuffAdjective>
@@ -660,7 +660,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(146, 138, 104)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>gneiss</stuffAdjective>
@@ -743,7 +743,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(155, 156, 160)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>quartzite</stuffAdjective>
@@ -824,7 +824,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(105, 124, 102)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>schist</stuffAdjective>
@@ -906,7 +906,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(122, 122, 122)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>gabbro</stuffAdjective>
@@ -990,7 +990,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(204, 204, 204)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>diorite</stuffAdjective>
@@ -1074,7 +1074,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(154, 162, 126)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>dunite</stuffAdjective>
@@ -1156,7 +1156,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(201, 150, 115)</color>
-			<soundImpactStuff>BulletImpactGround</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>pegmatite</stuffAdjective>

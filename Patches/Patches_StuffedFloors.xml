@@ -21,7 +21,7 @@
 						<order>210</order>
 						<specialDesignatorClasses>
 							<li>Designator_Cancel</li>
-							<li>Designator_SmoothFloor</li>
+							<li>Designator_SmoothSurface</li>
 							<li>Designator_RemoveFloor</li>
 						</specialDesignatorClasses>
 					</DesignationCategoryDef>  
