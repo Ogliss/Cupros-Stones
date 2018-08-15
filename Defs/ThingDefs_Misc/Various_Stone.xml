@@ -3,30 +3,46 @@
 
 	<!-- =========== Bases =========== -->
 
-	<ThingDef Name="STN_NormalRockBase" ParentName="UglyRockBase" Abstract="True" >
+	<ThingDef Name="STN_NormalRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
 			<texPath>Cupro/Object/Structure/Rock_Atlas</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef Name="STN_GraniticRockBase" ParentName="UglyRockBase" Abstract="True" >
+	<ThingDef Name="STN_GraniticRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef Name="STN_SmoothRockBase" ParentName="UglyRockBase" Abstract="True" >
+	<ThingDef Name="STN_SmoothRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef Name="STN_MarbledRockBase" ParentName="UglyRockBase" Abstract="True" >
+	<ThingDef Name="STN_MarbledRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockMarbled_Atlas</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef Name="STN_BandedRockBase" ParentName="UglyRockBase" Abstract="True" >
+	<ThingDef Name="STN_BandedRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
 			<texPath>Cupro/Object/Structure/RockBanded_Atlas</texPath>
 		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="TWC_SmoothedRockBase" ParentName="UglyRockBase" Abstract="True">
+		<graphicData>
+			<texPath>Cupro/Object/Structure/RockSmoothed_Atlas</texPath>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+			<MarketValue>12</MarketValue>
+		</statBases>
+		<building>
+			<isNaturalRock>false</isNaturalRock>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+			<smoothedThing />
+		</building>
+		<saveCompressible>false</saveCompressible>
 	</ThingDef>
 
 	<ThingDef Name="STN_NormalChunkBase" ParentName="ChunkRockBase" Abstract="True">
@@ -78,7 +94,20 @@
 		<building>
 			<mineableThing>ChunkSandstone</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>TWC_SmoothedSandstone</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>TWC_SmoothedSandstone</defName>
+		<label>smoothed sandstone</label>
+		<description>A sedimentary rock composed of sand particles compressed together. The sand layers have been polished to a flat, smooth surface.</description>
+		<graphicData>
+			<color>(130,102,90)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_SmoothChunkBase">
@@ -116,7 +145,7 @@
 			<stuffAdjective>sandstone</stuffAdjective>
 			<appearance>SmoothStone</appearance>
 			<statFactors>
-				<Beauty>1.1</Beauty>  
+				<Beauty>1.1</Beauty>
 				<MarketValue>0.4</MarketValue>
 				<MaxHitPoints>1.4</MaxHitPoints>
 				<WorkToBuild>5.0</WorkToBuild>
@@ -140,8 +169,23 @@
 		<building>
 			<mineableThing>ChunkGranite</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>TWC_SmoothedGranite</smoothedThing>
 		</building>
 	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>TWC_SmoothedGranite</defName>
+		<label>smoothed granite</label>
+		<description>A very hard igneous rock. The shining surface is filled with a mosaic of black, white, and pink speckles.</description>
+		<graphicData>
+			<color>(114,101,106)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>900</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
+
 
 	<ThingDef ParentName="STN_GraniticChunkBase">
 		<defName>ChunkGranite</defName>
@@ -154,7 +198,7 @@
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<butcherProducts>
-			<BlocksGranite>20</BlocksGranite>  
+			<BlocksGranite>20</BlocksGranite>
 		</butcherProducts>
 	</ThingDef>
 
@@ -199,8 +243,22 @@
 		<building>
 			<mineableThing>ChunkLimestone</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>TWC_SmoothedLimestone</smoothedThing>
 		</building>
 	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>TWC_SmoothedLimestone</defName>
+		<label>smoothed limestone</label>
+		<description>A sedimentary rock formed from the compacted remains of ancient seashells. It glows a smooth white, with light patterns of impurities suspended within.</description>
+		<graphicData>
+			<color>(196, 187, 166)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>700</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
 
 	<ThingDef ParentName="STN_SmoothChunkBase">
 		<defName>ChunkLimestone</defName>
@@ -257,8 +315,22 @@
 		<building>
 			<mineableThing>ChunkSlate</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>TWC_SmoothedSlate</smoothedThing>
 		</building>
 	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>TWC_SmoothedSlate</defName>
+		<label>smoothed slate</label>
+		<description>A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage. Interior strata are clearly visible through the polished surface.</description>
+		<graphicData>
+			<color>(70, 75, 70)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
 
 	<ThingDef ParentName="STN_SmoothChunkBase">
 		<defName>ChunkSlate</defName>
@@ -317,8 +389,23 @@
 		<building>
 			<mineableThing>ChunkMarble</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>TWC_SmoothedMarble</smoothedThing>
 		</building>
 	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>TWC_SmoothedMarble</defName>
+		<label>smoothed marble</label>
+		<description>A soft metamorphic rock. This semi-transparent rock almost appears to glow with its own inner light.</description>
+		<graphicData>
+			<color>(224, 222, 220)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Beauty>1</Beauty>
+		</statBases>
+	</ThingDef>
+
 
 	<ThingDef ParentName="STN_MarbledChunkBase">
 		<defName>ChunkMarble</defName>
@@ -379,7 +466,20 @@
 		<building>
 			<mineableThing>ChunkClaystone</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedClaystone</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedClaystone</defName>
+		<label>smoothed claystone</label>
+		<description>A soft, fine-grained sedimentary rock made mostly of compacted clay particles. Polished to a smooth matte finish.</description>
+		<graphicData>
+			<color>(228, 188, 147)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_SmoothChunkBase">
@@ -393,7 +493,7 @@
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<butcherProducts>
-			<BlocksClaystone>20</BlocksClaystone>  
+			<BlocksClaystone>20</BlocksClaystone>
 		</butcherProducts>
 	</ThingDef>
 
@@ -464,7 +564,20 @@
 		<building>
 			<mineableThing>ChunkAndesite</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedAndesite</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedAndesite</defName>
+		<label>smoothed andesite</label>
+		<description>A fine-grained igneous rock found in mountainous regions where it was brought to the surface by continental collisions. Polished to a glossy finish.</description>
+		<graphicData>
+			<color>(155, 164, 166)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_GraniticChunkBase">
@@ -546,7 +659,20 @@
 		<building>
 			<mineableThing>ChunkSyenite</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedSyenite</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedSyenite</defName>
+		<label>smoothed syenite</label>
+		<description>A coarse-grained igneous rock closely related to granite, but with little or no quartz. Smoothed to a dull sheen.</description>
+		<graphicData>
+			<color>(186, 126, 121)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>850</MaxHitPoints>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_GraniticChunkBase">
@@ -621,7 +747,7 @@
 		<description>A hard metamorphic rock with a banded texture.</description>
 		<graphicData>
 			<color>(146, 138, 104)</color>
-			</graphicData>
+		</graphicData>
 		<statBases>
 			<MaxHitPoints>725</MaxHitPoints>
 			<Beauty>1</Beauty>
@@ -629,7 +755,21 @@
 		<building>
 			<mineableThing>ChunkGneiss</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedGneiss</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedGneiss</defName>
+		<label>smoothed gneiss</label>
+		<description>A hard metamorphic rock with a banded texture. Beautiful to look at when polished.</description>
+		<graphicData>
+			<color>(146, 138, 104)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>725</MaxHitPoints>
+			<Beauty>2</Beauty>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_BandedChunkBase">
@@ -712,8 +852,22 @@
 		<building>
 			<mineableThing>ChunkQuartzite</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedQuartzite</smoothedThing>
 		</building>
 	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedQuartzite</defName>
+		<label>smoothed quartzite</label>
+		<description>A metamorphic rock that was originally pure quartz sandstone.</description>
+		<graphicData>
+			<color>(155, 156, 160)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+
 
 	<ThingDef ParentName="STN_NormalChunkBase">
 		<defName>ChunkQuartzite</defName>
@@ -793,7 +947,20 @@
 		<building>
 			<mineableThing>ChunkSchist</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedSchist</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedSchist</defName>
+		<label>smoothed schist</label>
+		<description>A metamorphic rock colored by the minerals actinolite and epidote. Polished to a smooth matte finish.</description>
+		<graphicData>
+			<color>(105, 124, 102)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_NormalChunkBase">
@@ -875,7 +1042,20 @@
 		<building>
 			<mineableThing>ChunkGabbro</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedGabbro</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedGabbro</defName>
+		<label>smoothed gabbro</label>
+		<description>A dense igneous rock formed by the slow cooling of magma, typically found on the ocean floor. Polished to a smooth shiny finish.</description>
+		<graphicData>
+			<color>(122, 122, 122)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>850</MaxHitPoints>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_GraniticChunkBase">
@@ -947,7 +1127,7 @@
 	<ThingDef ParentName="STN_GraniticRockBase">
 		<defName>Diorite</defName>
 		<label>diorite</label>
-		<description>An extremely hard igneous rock able to hold a high polish. Diorite is compositionally equivalent to andesite. It is intermediate in composition between granite and gabbro</description>
+		<description>An extremely hard igneous rock able to hold a high polish. Diorite is compositionally equivalent to andesite. It is intermediate in composition between granite and gabbro.</description>
 		<graphicData>
 			<color>(204, 204, 204)</color>
 		</graphicData>
@@ -958,8 +1138,23 @@
 		<building>
 			<mineableThing>ChunkDiorite</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedDiorite</smoothedThing>
 		</building>
 	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedDiorite</defName>
+		<label>smoothed diorite</label>
+		<description>An extremely hard igneous rock able to hold a high polish. Diorite is compositionally equivalent to andesite. It is intermediate in composition between granite and gabbro.</description>
+		<graphicData>
+			<color>(204, 204, 204)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Beauty>2</Beauty>
+		</statBases>
+	</ThingDef>
+
 
 	<ThingDef ParentName="STN_GraniticChunkBase">
 		<defName>ChunkDiorite</defName>
@@ -1043,8 +1238,23 @@
 		<building>
 			<mineableThing>ChunkDunite</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedDunite</smoothedThing>
 		</building>
 	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedDunite</defName>
+		<label>smoothed dunite</label>
+		<description>An igneous rock consisting of over 90% olivine, which leads to its distinct green color. Beautiful and hard.</description>
+		<graphicData>
+			<color>(154, 162, 126)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Beauty>2</Beauty>
+		</statBases>
+	</ThingDef>
+
 
 	<ThingDef ParentName="STN_NormalChunkBase">
 		<defName>ChunkDunite</defName>
@@ -1125,7 +1335,21 @@
 		<building>
 			<mineableThing>ChunkPegmatite</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>SmoothedPegmatite</smoothedThing>
 		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="TWC_SmoothedRockBase">
+		<defName>SmoothedPegmatite</defName>
+		<label>smoothed pegmatite</label>
+		<description>A hard igneous rock composed of large interlocking crystals.</description>
+		<graphicData>
+			<color>(201, 150, 115)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>850</MaxHitPoints>
+			<Beauty>2</Beauty>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="STN_NormalChunkBase">
