@@ -39,13 +39,13 @@ namespace CuprosStones
         public static ThingDef Pegmatite;
         public static ThingDef ChunkPegmatite;
 
-        // TWC Additions - Have to create own thingDefs for
-        // New Smooth Job introduced in B19
-        public static ThingDef TWC_SmoothedSandstone;
-        public static ThingDef TWC_SmoothedGranite;
-        public static ThingDef TWC_SmoothedLimestone;
-        public static ThingDef TWC_SmoothedSlate;
-        public static ThingDef TWC_SmoothedMarble;
+        //// TWC Additions - Have to create own thingDefs for
+        //// New Smooth Job introduced in B19
+        //public static ThingDef TWC_SmoothedSandstone;
+        //public static ThingDef TWC_SmoothedGranite;
+        //public static ThingDef TWC_SmoothedLimestone;
+        //public static ThingDef TWC_SmoothedSlate;
+        //public static ThingDef TWC_SmoothedMarble;
 
         public static ThingDef SmoothedClaystone;
         public static ThingDef SmoothedAndesite;
