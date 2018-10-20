@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>[TWC]Cupro's Stones</name>
+  <name>[TWC]Cupro's Stones 1.0</name>
   <author>The White Crayon</author>
-  <targetVersion>0.19.0</targetVersion>
+  <targetVersion>1.0.0</targetVersion>
   <description>Adds new types of stones. Stone types spawned in the world can be customized in the Mod Settings.</description>
 </ModMetaData>
