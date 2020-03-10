@@ -79,7 +79,7 @@
 		</stuffProps>
 	</ThingDef>
 
-	<!-- ================ Sandstone ================ -->
+	<!-- ================ Sandstone ================ 
 
 	<ThingDef ParentName="STN_SmoothRockBase">
 		<defName>Sandstone</defName>
@@ -154,7 +154,6 @@
 		</stuffProps>
 	</ThingDef>
 
-	<!-- ================ Granite ================ -->
 
 	<ThingDef ParentName="STN_GraniticRockBase">
 		<defName>Granite</defName>
@@ -228,7 +227,6 @@
 		</stuffProps>
 	</ThingDef>
 
-	<!-- ================ Limestone ================ -->
 
 	<ThingDef ParentName="STN_SmoothRockBase">
 		<defName>Limestone</defName>
@@ -300,7 +298,6 @@
 		</stuffProps>
 	</ThingDef>
 
-	<!-- ================ Slate ================ -->
 
 	<ThingDef ParentName="STN_SmoothRockBase">
 		<defName>Slate</defName>
@@ -373,7 +370,6 @@
 		</stuffProps>
 	</ThingDef>
 
-	<!-- ================ Marble ================ -->
 
 	<ThingDef ParentName="STN_MarbledRockBase">
 		<defName>Marble</defName>
@@ -448,7 +444,7 @@
 				<WorkToMake>1.15</WorkToMake>
 			</statFactors>
 		</stuffProps>
-	</ThingDef>
+	</ThingDef>-->
 
 
 	<!-- ================ Claystone ================ -->
