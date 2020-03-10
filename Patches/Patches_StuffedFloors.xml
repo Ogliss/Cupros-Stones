@@ -2,6 +2,7 @@
 <Patch>
 
 	<!-- If Stuffed Floors is not found, add the designation category and assign it -->
+	<!--
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -35,7 +36,7 @@
 			</li>
 		</operations>
 	</Operation>
-
+	-->
 	<!-- If Stuffed Floors is found, add my floors to the obsoletes -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
