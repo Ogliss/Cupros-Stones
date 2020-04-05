@@ -86,7 +86,7 @@
                 </value>
             </li>
             <li Class="PatchOperationAdd">                <!-- BlocksGranite -->
-                <xpath>/Defs/ThingDef[defName="BlocksSandstone"]/statBases[not(MarketValue)]</xpath>
+                <xpath>/Defs/ThingDef[defName="BlocksGranite"]/statBases[not(MarketValue)]</xpath>
                 <value>
                     <MarketValue>2.1</MarketValue>
                 </value>
