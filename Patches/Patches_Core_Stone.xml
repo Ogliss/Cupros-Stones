@@ -86,6 +86,12 @@
                 </value>
             </li>
             <li Class="PatchOperationAdd">                <!-- BlocksGranite -->
+                <xpath>/Defs/ThingDef[defName="BlocksGranite"]/statBases[not(MarketValue)]</xpath>
+                <value>
+                    <MarketValue>2.1</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
                 <xpath>/Defs/ThingDef[defName="BlocksGranite"]/stuffProps[not(commonality)]</xpath>
                 <value>
                     <commonality>0.0667</commonality>
