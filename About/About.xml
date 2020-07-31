@@ -6,6 +6,7 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <packageId>Ogliss.Cupro.CuprosStones</packageId>
   <description>Adds new types of stones. Stone types spawned in the world can be customized in the Mod Settings.</description>
