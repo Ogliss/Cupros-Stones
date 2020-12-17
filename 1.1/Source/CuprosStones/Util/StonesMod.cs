@@ -61,9 +61,9 @@ namespace CuprosStones {
 				Rect rightLabelRect = fullRect.RightHalf().Rounded();
 
 				DualCheckboxesWithIcons_ThingDef(
-					fullRect.LeftHalf(), 
-					StoneDefOf.ChunkLimestone, StoneDefOf.ChunkSandstone, 
-					StoneDefOf.Limestone.LabelCap, StoneDefOf.Sandstone.LabelCap,
+					fullRect.LeftHalf(),
+					Static.ChunkLimestone, Static.ChunkSandstone,
+					Static.Limestone?.LabelCap, Static.Sandstone?.LabelCap,
 					ref Settings.SpawnLimestone, ref Settings.SpawnSandstone
 				);
 			}
@@ -73,8 +73,8 @@ namespace CuprosStones {
 				Rect fullRect = list.GetRect(30f);
 				DualCheckboxesWithIcons_ThingDef(
 					fullRect.LeftHalf(),
-					StoneDefOf.ChunkClaystone, StoneDefOf.ChunkAndesite,
-					StoneDefOf.Claystone.LabelCap, StoneDefOf.Andesite.LabelCap,
+					Static.ChunkClaystone, Static.ChunkAndesite,
+					Static.Claystone?.LabelCap, Static.Andesite?.LabelCap,
 					ref Settings.SpawnClaystone, ref Settings.SpawnAndesite
 				);
 			}
@@ -84,8 +84,8 @@ namespace CuprosStones {
 				Rect fullRect = list.GetRect(30f);
 				DualCheckboxesWithIcons_ThingDef(
 					fullRect.LeftHalf(),
-					StoneDefOf.ChunkSyenite, StoneDefOf.ChunkGneiss,
-					StoneDefOf.Syenite.LabelCap, StoneDefOf.Gneiss.LabelCap,
+					Static.ChunkSyenite, Static.ChunkGneiss,
+					Static.Syenite?.LabelCap, Static.Gneiss?.LabelCap,
 					ref Settings.SpawnSyenite, ref Settings.SpawnGneiss
 				);
 			}
@@ -95,8 +95,8 @@ namespace CuprosStones {
 				Rect fullRect = list.GetRect(30f);
 				DualCheckboxesWithIcons_ThingDef(
 					fullRect.LeftHalf(),
-					StoneDefOf.ChunkMarble, StoneDefOf.ChunkQuartzite,
-					StoneDefOf.Marble.LabelCap, StoneDefOf.Quartzite.LabelCap,
+					Static.ChunkMarble, Static.ChunkQuartzite,
+					Static.Marble?.LabelCap, Static.Quartzite?.LabelCap,
 					ref Settings.SpawnMarble, ref Settings.SpawnQuartzite
 				);
 			}
@@ -106,8 +106,8 @@ namespace CuprosStones {
 				Rect fullRect = list.GetRect(30f);
 				DualCheckboxesWithIcons_ThingDef(
 					fullRect.LeftHalf(),
-					StoneDefOf.ChunkSlate, StoneDefOf.ChunkSchist,
-					StoneDefOf.Slate.LabelCap, StoneDefOf.Schist.LabelCap,
+					Static.ChunkSlate, Static.ChunkSchist,
+					Static.Slate?.LabelCap, Static.Schist?.LabelCap,
 					ref Settings.SpawnSlate, ref Settings.SpawnSchist
 				);
 			}
@@ -117,8 +117,8 @@ namespace CuprosStones {
 				Rect fullRect = list.GetRect(30f);
 				DualCheckboxesWithIcons_ThingDef(
 					fullRect.LeftHalf(),
-					StoneDefOf.ChunkGabbro, StoneDefOf.ChunkGranite,
-					StoneDefOf.Gabbro.LabelCap, StoneDefOf.Granite.LabelCap,
+					Static.ChunkGabbro, Static.ChunkGranite,
+					Static.Gabbro?.LabelCap, Static.Granite?.LabelCap,
 					ref Settings.SpawnGabbro, ref Settings.SpawnGranite
 				);
       }
@@ -128,8 +128,8 @@ namespace CuprosStones {
 				Rect fullRect = list.GetRect(30f);
 				DualCheckboxesWithIcons_ThingDef(
 					fullRect.LeftHalf(),
-					StoneDefOf.ChunkDiorite, StoneDefOf.ChunkDunite,
-					StoneDefOf.Diorite.LabelCap, StoneDefOf.Dunite.LabelCap,
+					Static.ChunkDiorite, Static.ChunkDunite,
+					Static.Diorite?.LabelCap, Static.Dunite?.LabelCap,
 					ref Settings.SpawnDiorite, ref Settings.SpawnDunite
 				);
       }
@@ -140,9 +140,9 @@ namespace CuprosStones {
 				Rect leftRect = fullRect.LeftHalf().LeftHalf().RightPartPixels(150).Rounded();
         Rect leftIconRect = fullRect.LeftHalf().LeftHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
 
-        Widgets.ThingIcon(leftIconRect, StoneDefOf.ChunkPegmatite);
+        Widgets.ThingIcon(leftIconRect, Static.ChunkPegmatite);
 
-        Widgets.CheckboxLabeled(leftRect, StoneDefOf.Pegmatite.LabelCap, ref Settings.SpawnPegmatite);
+        Widgets.CheckboxLabeled(leftRect, Static.Pegmatite?.LabelCap, ref Settings.SpawnPegmatite);
         Widgets.DrawHighlightIfMouseover(leftRect);
       }
 
@@ -152,17 +152,17 @@ namespace CuprosStones {
 
 
 		private static void DualCheckboxesWithIcons_ThingDef(Rect rect, ThingDef leftThingDef, ThingDef rightThingDef, string leftLabel, string rightLabel, ref bool leftBool, ref bool rightBool) {
+
 			Rect leftRect = rect.LeftHalf().RightPartPixels(150).Rounded();
-			Rect rightRect = rect.RightHalf().RightPartPixels(150).Rounded();
 			Rect leftIconRect = rect.LeftHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
-			Rect rightIconRect = rect.RightHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
-
 			Widgets.ThingIcon(leftIconRect, leftThingDef);
-			Widgets.ThingIcon(rightIconRect, rightThingDef);
-
 			Widgets.CheckboxLabeled(leftRect, leftLabel, ref leftBool);
-			Widgets.CheckboxLabeled(rightRect, rightLabel, ref rightBool);
 			Widgets.DrawHighlightIfMouseover(leftRect);
+
+			Rect rightRect = rect.RightHalf().RightPartPixels(150).Rounded();
+			Rect rightIconRect = rect.RightHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
+			Widgets.ThingIcon(rightIconRect, rightThingDef);
+			Widgets.CheckboxLabeled(rightRect, rightLabel, ref rightBool);
 			Widgets.DrawHighlightIfMouseover(rightRect);
 		}
 

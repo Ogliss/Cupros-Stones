@@ -47,49 +47,49 @@ namespace CuprosStones {
 
 
     public static bool StoneAllowedOrUndefined(ThingDef stone) {
-      if (stone == StoneDefOf.Limestone) {
+      if (stone == Static.Limestone) {
         return SpawnLimestone;
       }
-      if (stone == StoneDefOf.Sandstone) {
+      if (stone == Static.Sandstone) {
         return SpawnSandstone;
       }
-      if (stone == StoneDefOf.Claystone) {
+      if (stone == Static.Claystone) {
         return SpawnClaystone;
       }
-      if (stone == StoneDefOf.Andesite) {
+      if (stone == Static.Andesite) {
         return SpawnAndesite;
       }
-      if (stone == StoneDefOf.Syenite) {
+      if (stone == Static.Syenite) {
         return SpawnSyenite;
       }
-      if (stone == StoneDefOf.Gneiss) {
+      if (stone == Static.Gneiss) {
         return SpawnGneiss;
       }
-      if (stone == StoneDefOf.Marble) {
+      if (stone == Static.Marble) {
         return SpawnMarble;
       }
-      if (stone == StoneDefOf.Quartzite) {
+      if (stone == Static.Quartzite) {
         return SpawnQuartzite;
       }
-      if (stone == StoneDefOf.Slate) {
+      if (stone == Static.Slate) {
         return SpawnSlate;
       }
-      if (stone == StoneDefOf.Schist) {
+      if (stone == Static.Schist) {
         return SpawnSchist;
       }
-      if (stone == StoneDefOf.Gabbro) {
+      if (stone == Static.Gabbro) {
         return SpawnGabbro;
       }
-      if (stone == StoneDefOf.Granite) {
+      if (stone == Static.Granite) {
         return SpawnGranite;
       }
-      if (stone == StoneDefOf.Diorite) {
+      if (stone == Static.Diorite) {
         return SpawnDiorite;
       }
-      if (stone == StoneDefOf.Dunite) {
+      if (stone == Static.Dunite) {
         return SpawnDunite;
       }
-      if (stone == StoneDefOf.Pegmatite) {
+      if (stone == Static.Pegmatite) {
         return SpawnPegmatite;
       }
       return true;
