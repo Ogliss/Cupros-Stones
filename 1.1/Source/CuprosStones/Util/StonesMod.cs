@@ -153,17 +153,22 @@ namespace CuprosStones {
 
 		private static void DualCheckboxesWithIcons_ThingDef(Rect rect, ThingDef leftThingDef, ThingDef rightThingDef, string leftLabel, string rightLabel, ref bool leftBool, ref bool rightBool) {
 
-			Rect leftRect = rect.LeftHalf().RightPartPixels(150).Rounded();
-			Rect leftIconRect = rect.LeftHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
-			Widgets.ThingIcon(leftIconRect, leftThingDef);
-			Widgets.CheckboxLabeled(leftRect, leftLabel, ref leftBool);
-			Widgets.DrawHighlightIfMouseover(leftRect);
-
-			Rect rightRect = rect.RightHalf().RightPartPixels(150).Rounded();
-			Rect rightIconRect = rect.RightHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
-			Widgets.ThingIcon(rightIconRect, rightThingDef);
-			Widgets.CheckboxLabeled(rightRect, rightLabel, ref rightBool);
-			Widgets.DrawHighlightIfMouseover(rightRect);
+            if (leftThingDef != null)
+			{
+				Rect leftRect = rect.LeftHalf().RightPartPixels(150).Rounded();
+				Rect leftIconRect = rect.LeftHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
+				Widgets.ThingIcon(leftIconRect, leftThingDef);
+				Widgets.CheckboxLabeled(leftRect, leftLabel, ref leftBool);
+				Widgets.DrawHighlightIfMouseover(leftRect);
+			}
+            if (rightThingDef != null)
+			{
+				Rect rightRect = rect.RightHalf().RightPartPixels(150).Rounded();
+				Rect rightIconRect = rect.RightHalf().LeftHalf().LeftHalf().RightPartPixels(30).Rounded();
+				Widgets.ThingIcon(rightIconRect, rightThingDef);
+				Widgets.CheckboxLabeled(rightRect, rightLabel, ref rightBool);
+				Widgets.DrawHighlightIfMouseover(rightRect);
+			}
 		}
 
 
