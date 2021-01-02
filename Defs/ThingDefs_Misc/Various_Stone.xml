@@ -5,33 +5,33 @@
 
 	<ThingDef Name="STN_NormalRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Object/Structure/Rock_Atlas</texPath>
+			<!--texPath>Cupro/Object/Structure/Rock_Atlas</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_GraniticRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath>
+			<!--texPath>Cupro/Object/Structure/RockGranitic_Atlas</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_SmoothRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
+			<!--texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_MarbledRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Object/Structure/RockMarbled_Atlas</texPath>
+			<!--texPath>Cupro/Object/Structure/RockMarbled_Atlas</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_BandedRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Object/Structure/RockBanded_Atlas</texPath>
+			<!--texPath>Cupro/Object/Structure/RockBanded_Atlas</texPath-->
 		</graphicData>
 	</ThingDef>
 
 	<ThingDef Name="TWC_SmoothedRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Object/Structure/RockSmoothed_Atlas</texPath>
+			<!--texPath>Cupro/Object/Structure/RockSmoothed_Atlas</texPath-->
 		</graphicData>
 		<statBases>
 			<Beauty>1</Beauty>
@@ -47,27 +47,27 @@
 
 	<ThingDef Name="STN_NormalChunkBase" ParentName="ChunkRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Item/ChunkNormal</texPath>
+			<!--texPath>Cupro/Item/ChunkNormal</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_GraniticChunkBase" ParentName="ChunkRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Item/ChunkGranitic</texPath>
+			<!--texPath>Cupro/Item/ChunkGranitic</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_SmoothChunkBase" ParentName="ChunkRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Item/ChunkSmooth</texPath>
+			<!--texPath>Cupro/Item/ChunkSmooth</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_MarbledChunkBase" ParentName="ChunkRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Item/ChunkMarbled</texPath>
+			<!--texPath>Cupro/Item/ChunkMarbled</texPath-->
 		</graphicData>
 	</ThingDef>
 	<ThingDef Name="STN_BandedChunkBase" ParentName="ChunkRockBase" Abstract="True">
 		<graphicData>
-			<texPath>Cupro/Item/ChunkBanded</texPath>
+			<!--texPath>Cupro/Item/ChunkBanded</texPath-->
 		</graphicData>
 	</ThingDef>
 
@@ -75,7 +75,7 @@
 		<stuffProps>
 			<commonality>0.0667</commonality>
 			<!-- because there are so many stone types -->
-			<appearance>RockyStone</appearance>
+			<!--appearance>RockyStone</appearance-->
 		</stuffProps>
 	</ThingDef>
 
@@ -511,7 +511,7 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>claystone</stuffAdjective>
-			<appearance>SmoothStone</appearance>
+			<!--appearance>SmoothStone</appearance-->
 			<statFactors>
 				<MarketValue>0.4</MarketValue>
 				<MaxHitPoints>1.3</MaxHitPoints>
@@ -608,7 +608,7 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>andesite</stuffAdjective>
-			<appearance>GraniticStone</appearance>
+			<!--appearance>GraniticStone</appearance-->
 			<statFactors>
 				<MarketValue>0.4</MarketValue>
 				<MaxHitPoints>1.6</MaxHitPoints>
@@ -703,7 +703,7 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>syenite</stuffAdjective>
-			<appearance>GraniticStone</appearance>
+			<!--appearance>GraniticStone</appearance-->
 			<statFactors>
 				<MarketValue>0.5</MarketValue>
 				<MaxHitPoints>1.6</MaxHitPoints>
@@ -800,7 +800,7 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>gneiss</stuffAdjective>
-			<appearance>GraniticStone</appearance>
+			<!--appearance>GraniticStone</appearance-->
 			<statFactors>
 				<Beauty>1.1</Beauty>
 				<MarketValue>0.4</MarketValue>
@@ -1086,7 +1086,7 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>gabbro</stuffAdjective>
-			<appearance>GraniticStone</appearance>
+			<!--appearance>GraniticStone</appearance-->
 			<statFactors>
 				<MarketValue>0.45</MarketValue>
 				<MaxHitPoints>1.6</MaxHitPoints>
@@ -1185,7 +1185,7 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>diorite</stuffAdjective>
-			<appearance>GraniticStone</appearance>
+			<!--appearance>GraniticStone</appearance-->
 			<statFactors>
 				<Beauty>1.4</Beauty>
 				<MarketValue>0.6</MarketValue>
