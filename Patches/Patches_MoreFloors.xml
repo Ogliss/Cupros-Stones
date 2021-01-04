@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-  <!-- If Symon's updated version of Cupro's Stones is found, add additional -->
-  <!--  floor flavours for new stone types                                   -->
-  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- MoreFloors -->
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[T] MoreFloors</li>
