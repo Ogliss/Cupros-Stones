@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
+ 
   <!-- MoreFloors -->
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[T] MoreFloors</li>
     </mods>
-        
+ 
     <match Class="PatchOperationSequence">
       <operations>
+    <li Class="PatchOperationAttributeRemove">
+		  <xpath>/Defs/TerrainDef[defName="FloorStoneRoughClaystone" or
+			defName="FloorStoneRoughAndesite" or
+			defName="FloorStoneRoughSyenite" or
+			defName="FloorStoneRoughGneiss" or
+			defName="FloorStoneRoughQuartzite" or
+			defName="FloorStoneRoughSchist" or
+			defName="FloorStoneRoughGabbro" or
+			defName="FloorStoneRoughDiorite" or
+			defName="FloorStoneRoughDunite" or
+			defName="FloorStoneRoughPegmatite"]</xpath>
+		  <attribute>Abstract</attribute>
+		</li>
 		<li Class="PatchOperationAttributeRemove">
 		  <xpath>/Defs/TerrainDef[defName="FloorStoneSlabsClaystone" or
 			defName="FloorStoneSlabsAndesite" or
@@ -36,19 +49,6 @@
 		  <attribute>Abstract</attribute>
 		</li>
 		<li Class="PatchOperationAttributeRemove">
-		  <xpath>/Defs/TerrainDef[defName="FloorStoneRoughClaystone" or
-			defName="FloorStoneRoughAndesite" or
-			defName="FloorStoneRoughSyenite" or
-			defName="FloorStoneRoughGneiss" or
-			defName="FloorStoneRoughQuartzite" or
-			defName="FloorStoneRoughSchist" or
-			defName="FloorStoneRoughGabbro" or
-			defName="FloorStoneRoughDiorite" or
-			defName="FloorStoneRoughDunite" or
-			defName="FloorStoneRoughPegmatite"]</xpath>
-		  <attribute>Abstract</attribute>
-		</li>
-		<li Class="PatchOperationAttributeRemove">
 		  <xpath>/Defs/TerrainDef[defName="FloorStoneAlternatingClaystone" or
 			defName="FloorStoneAlternatingAndesite" or
 			defName="FloorStoneAlternatingSyenite" or
@@ -60,7 +60,20 @@
 			defName="FloorStoneAlternatingDunite" or
 			defName="FloorStoneAlternatingPegmatite"]</xpath>
 		  <attribute>Abstract</attribute>
-		</li> 
+		</li>
+    <li Class="PatchOperationAttributeRemove">
+		  <xpath>/Defs/TerrainDef[defName="FloorStoneChequeredClaystone" or
+			defName="FloorStoneChequeredAndesite" or
+			defName="FloorStoneChequeredSyenite" or
+			defName="FloorStoneChequeredGneiss" or
+			defName="FloorStoneChequeredQuartzite" or
+			defName="FloorStoneChequeredSchist" or
+			defName="FloorStoneChequeredGabbro" or
+			defName="FloorStoneChequeredDiorite" or
+			defName="FloorStoneChequeredDunite" or
+			defName="FloorStoneChequeredPegmatite"]</xpath>
+		  <attribute>Abstract</attribute>
+		</li>
 		<li Class="PatchOperationAttributeRemove">
 		  <xpath>/Defs/TerrainDef[defName="FloorStoneHerringboneClaystone" or
 			defName="FloorStoneHerringboneAndesite" or
@@ -155,5 +168,5 @@
 	  </operations>
     </match>
   </Operation>
-  
+ 
 </Patch>
