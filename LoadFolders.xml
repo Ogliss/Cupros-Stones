@@ -18,4 +18,10 @@
 		<li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
 	</v1.3>
+	<v1.4>
+		<li></li>
+		<li>1.4</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
+	</v1.4>
 </loadFolders>
