@@ -346,8 +346,8 @@
                 </value>
             </li>
 			<!-- STN_SmoothRockBase -->
-            <li Class="PatchOperationAdd">                
-                <xpath>/Defs/ThingDef[@Name="STN_SmoothRockBase"]/graphicData[not(texPath)]</xpath>
+            <li Class="PatchOperationReplace">                
+                <xpath>/Defs/ThingDef[@Name="STN_SmoothRockBase"]/graphicData/texPath</xpath>
                 <value>
                     <texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath>
                 </value>
@@ -368,8 +368,8 @@
             </li>
 			
 			<!-- TWC_SmoothedRockBase -->
-            <li Class="PatchOperationAdd">                
-                <xpath>/Defs/ThingDef[@Name="TWC_SmoothedRockBase"]/graphicData[not(texPath)]</xpath>
+            <li Class="PatchOperationReplace">                
+                <xpath>/Defs/ThingDef[@Name="TWC_SmoothedRockBase"]/graphicData/texPath</xpath>
                 <value>
                     <texPath>Cupro/Object/Structure/RockSmoothed_Atlas</texPath>
                 </value>

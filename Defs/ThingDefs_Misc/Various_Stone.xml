@@ -15,6 +15,7 @@
 	</ThingDef>
 	<ThingDef Name="STN_SmoothRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
+			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
 			<!--texPath>Cupro/Object/Structure/RockSmooth_Atlas</texPath-->
 		</graphicData>
 	</ThingDef>
@@ -31,7 +32,7 @@
 
 	<ThingDef Name="TWC_SmoothedRockBase" ParentName="UglyRockBase" Abstract="True">
 		<graphicData>
-			<!--texPath>Cupro/Object/Structure/RockSmoothed_Atlas</texPath-->
+			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
 		</graphicData>
 		<statBases>
 			<Beauty>1</Beauty>
