@@ -19,6 +19,10 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
 		<li IfModActive="Wemd.ExpandedFloors">ExpandedFloors</li>
 		<li IfModActive="wexman.mines">Mines</li>
+		<if IfModActive="Dubwise.DubsBadHygiene">Mods/Dubs_Bad_Hygiene</if>
+		<li IfModActive="sarg.alphaanimals">Mods/Alpha_Animals</li>
+		<li IfModActive="VanillaExpanded.VFEArchitect">Mods/Vanilla_Furniture_Expanded_Architect</li>
+		<li IfModActive="VanillaExpanded.VMemesE">Mods/Vanilla_Ideology_Expanded_Memes_and_Structures</li>
 	</v1.3>
 	<v1.4>
 		<li></li>
@@ -28,5 +32,9 @@
 		<li IfModActive="Wemd.ExpandedFloors">ExpandedFloors</li>
 		<li IfModActive="wexman.mines">Mines</li>
 		<li IfModActive="wexman.mines">Mines/1.4</li>
+		<if IfModActive="Dubwise.DubsBadHygiene">Mods/Dubs_Bad_Hygiene</if>
+		<li IfModActive="sarg.alphaanimals">Mods/Alpha_Animals</li>
+		<li IfModActive="VanillaExpanded.VFEArchitect">Mods/Vanilla_Furniture_Expanded_Architect</li>
+		<li IfModActive="VanillaExpanded.VMemesE">Mods/Vanilla_Ideology_Expanded_Memes_and_Structures</li>
 	</v1.4>
 </loadFolders>
