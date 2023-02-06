@@ -8,7 +8,7 @@
         <label>ocular claystone floor</label>
         <color>(228,188,147)</color>
         <costList>
-          <BlocksClaystone>8</BlocksClaystone>
+          <BlocksClaystone>20</BlocksClaystone>
         </costList>
       </TerrainDef>
 
@@ -17,7 +17,7 @@
         <label>ocular andesite floor</label>
         <color>(155,164,166)</color>
         <costList>
-          <BlocksAndesite>8</BlocksAndesite>
+          <BlocksAndesite>20</BlocksAndesite>
         </costList>
       </TerrainDef>
 
@@ -26,7 +26,7 @@
         <label>ocular syenite floor</label>
         <color>(186,126,121)</color>
         <costList>
-          <BlocksSyenite>8</BlocksSyenite>
+          <BlocksSyenite>20</BlocksSyenite>
         </costList>  
       </TerrainDef>
 
@@ -35,7 +35,7 @@
         <label>ocular gneiss floor</label>
         <color>(146,138,104)</color>
         <costList>
-          <BlocksGneiss>8</BlocksGneiss>
+          <BlocksGneiss>20</BlocksGneiss>
         </costList>              
       </TerrainDef>
 
@@ -44,7 +44,7 @@
         <label>ocular quartzite floor</label>
         <color>(155,156,160)</color>
         <costList>
-          <BlocksQuartzite>8</BlocksQuartzite>
+          <BlocksQuartzite>20</BlocksQuartzite>
         </costList>
       </TerrainDef>
 
@@ -53,7 +53,7 @@
         <label>ocular schist floor</label>
         <color>(105,124,102)</color>
         <costList>
-          <BlocksSchist>8</BlocksSchist>
+          <BlocksSchist>20</BlocksSchist>
         </costList>
       </TerrainDef>
 
@@ -62,7 +62,7 @@
         <label>ocular gabbro floor</label>
         <color>(122,122,122)</color>
         <costList>
-          <BlocksGabbro>8</BlocksGabbro>
+          <BlocksGabbro>20</BlocksGabbro>
         </costList>
       </TerrainDef>
       
@@ -71,7 +71,7 @@
         <label>ocular diorite floor</label>
         <color>(204,204,204)</color>
         <costList>
-          <BlocksDiorite>8</BlocksDiorite>
+          <BlocksDiorite>20</BlocksDiorite>
         </costList>              
       </TerrainDef>
       
@@ -80,7 +80,7 @@
         <label>ocular dunite floor</label>
         <color>(154,162,126)</color>
         <costList>
-          <BlocksDunite>8</BlocksDunite>
+          <BlocksDunite>20</BlocksDunite>
         </costList>
       </TerrainDef>
       
@@ -89,7 +89,7 @@
         <label>ocular pegmatite floor</label>
         <color>(201,150,115)</color>
         <costList>
-          <BlocksPegmatite>8</BlocksPegmatite>
+          <BlocksPegmatite>20</BlocksPegmatite>
         </costList>
       </TerrainDef>
     </value>
