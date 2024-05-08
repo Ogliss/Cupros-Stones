@@ -46,7 +46,6 @@
 		<li IfModActive="wexman.mines">Mines</li>
 		<li IfModActive="wexman.mines">Mines/1.5</li>
 		<if IfModActive="Dubwise.DubsBadHygiene">Mods/Dubs_Bad_Hygiene</if>
-		<li IfModActive="sarg.alphaanimals">Mods/Alpha_Animals</li>
 		<li IfModActive="VanillaExpanded.VFEArchitect">Mods/Vanilla_Furniture_Expanded_Architect</li>
 		<li IfModActive="VanillaExpanded.VMemesE">Mods/Vanilla_Ideology_Expanded_Memes_and_Structures</li>
 	</v1.5>
